@@ -373,7 +373,7 @@
     </div>
 
     <!-- Ảnh động trang trí -->
-    <img src="./assets/mewmew.gif" alt="GIF" class="center-gif" /> <!-- Thay ảnh động bên dưới -->
+    <img src="/assets/mewmew.gif" alt="GIF" class="center-gif" /> <!-- Thay ảnh động bên dưới -->
 
     <!-- Hiển thị lời chúc -->
     <div class="popup" id="popup">
@@ -385,29 +385,29 @@
     <div class="overlay" id="overlay"></div>
 
     <!-- Nhạc nền  -->
-    <audio id="player" src="./assets/b.mp3"></audio> <!-- Sửa bài hát ở đây -->
+    <audio id="player" src="/assets/b.mp3"></audio> <!-- Sửa bài hát ở đây -->
 
     <script>
         //Sửa ảnh và lời nhắn ở đây
         const messages = [
             {
-                img: "./assets/e4.jpg", //Thay ảnh
+                img: "/assets/e4.jpg", //Thay ảnh
                 text: "Chúc bạn nhỏ luôn vui vẻ, xinh đẹp và ngập tràn yêu thương!" //Thay lời nhắn
             },
             {
-                img: "./assets/e1.jpg",
+                img: "/assets/e1.jpg",
                 text: "Mỗi ngày của bạn đều là một đoá hoa nở rộ."
             },
             {
-                img: "./assets/e3.jpg",
+                img: "/assets/e3.jpg",
                 text: "Cảm ơn bạn vì đã cho anh cơ hội được ở bên bạn nhỏ!"
             },
             {
-                img: "./assets/e7.jpg",
+                img: "/assets/e7.jpg",
                 text: "Chúc bạn một ngày 20/10 thật hạnh phúc và trọn vẹn! "
             },
             {
-                img: "./assets/e6.jpg",
+                img: "/assets/e6.jpg",
                 text: "Bạn là món quà tuyệt vời nhất mà cuộc sống mang lại! "
             }
         ];
@@ -422,12 +422,12 @@
         const centerText = document.getElementById("centerText");
         //Thay những ảnh rơi từ trên xuống ở đây
         const letterImages = [
-            "./assets/letters.png",
-            "./assets/q3.png",
-            "./assets/h1.png",
-            "./assets/h3.png",
-            "./assets/t2.png",
-            "./assets/t5.png",
+            "/assets/letters.png",
+            "/assets/q3.png",
+            "/assets/h1.png",
+            "/assets/h3.png",
+            "/assets/t2.png",
+            "/assets/t5.png",
         ];
 
         function createHeartExplosion(x, y) {
@@ -513,5 +513,6 @@
     </script>
 
 </body>
+
 
 </html>
